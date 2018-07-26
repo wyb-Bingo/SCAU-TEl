@@ -1,0 +1,1810 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<mata name="viewport" content="width=device-width,
+ 								initial-scale=1.0
+ 								
+                           		 ">
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+  $( function() {
+    var availableTags = [
+      "党委办公室",
+      "党委统战部",
+      "校长办公室",
+      "组织部（党校办公室)",
+      "机关党校",
+      "纪委监察处",
+      "党委宣传部",
+      "党委学生工作部",
+      "党委保卫处",
+      "人民武装部",
+      "人事处（校人才交流中心）",
+      "人才工作办公室",
+      "教务处",
+      "研究生院、研究生工作部",
+      "招生就业处（招生办公室、就业指导中心）",
+      "科学技术处",
+      "人文社会科学处",
+      "发展规划处（高教研究所）",
+      "财务处",
+      "资产管理处",
+      "后勤处（基建办）",
+      "审计处",
+      "国际交流处、港澳台事务办公室",
+      "离退休工作处",
+      "农学院",
+      "林学与风景园林学院",
+      "园艺学院",
+      "兽医学院",
+      "动物科学学院",
+      "资源环境学院",
+      "海洋学院",
+      "生命科学学院",
+      "工程学院",
+      "食品学院",
+      "水利与土木工程学院",
+      "材料与能源学院",
+      "数学与信息学院、软件学院",
+       "电子工程学院",
+      "经济管理学院",
+      "公共管理学院",
+      "人文与法学学院",
+      "外国语学院",
+      "艺术学院",
+      "马克思主义学院",
+      "体育教学研究部",
+      "继续教育学院",
+      "国际教育学院",
+      "创新创业学院",
+      "珠江学院",
+      "新农村发展研究院",
+      "重点实验室建设办公室",
+      "试验中心、农事训练中心",
+      "测试中心",
+      "现代教育技术中心",
+      "公共基础课实验教学中心",
+      "工程基础教学与训练中心",
+      "图书馆",
+      "档案馆",
+      "华南农业博物馆筹建办公室",
+      "学报编辑部",
+      "校工会",
+      "校团委",
+      "校友会、教育发展基金会",
+      "广东华农大资产经营有限公司",
+      "校医院",
+      "附属小学",
+      "幼儿园",
+      "亚热带农业生物资源保护与利用国家重点实验室",
+      "国家植物航天育种工程中心",
+      "国家生猪种业工程技术研究中心",
+      "人兽共患病防控制剂国家地方联合工程实验室(广东）",
+      "畜禽育种国家地方联合工程研究中心（广东）",
+      "国家兽医微生物耐药性风险评估实验室",
+      "畜禽产品精准加工与安全控制技术国家地方联合工程研究中心",
+      "国家精准农业航空施药技术国际联合研究中心",
+      "农业部畜禽产品质量监督检验测试中心（广州）",
+      "农业部植物新品种测试（广州）分中心",
+      "农业部转基因植物及植物用微生物环境安全监督检验测试中心（广州）",
+      "广东农村政策研究中心",
+      "群体微生物研究中心"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+
+	<script>
+	$(document).ready(function(){
+	  $("#button1").click(function(){
+	  	var a = $("#tags").val();
+	  	if(a != "")
+	  	{
+	  		if(a == "党委办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85280026");
+	     	if(a == "党委统战部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280026");
+	     if(a == "校长办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85280014");
+	     if(a == "组织部（党校办公室）")
+	     	alert(a+'\n'+'\n'+"电话"+"85283566");
+	     if(a == "机关党校")
+	     	alert(a+'\n'+'\n'+"电话"+"85283566");
+	     if(a == "纪委监察处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280034");
+	     if(a == "党委宣传部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280028");
+	     if(a == "党委学生工作部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280082");
+	     if(a == "党委保卫处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280108");
+	     if(a == "人民武装部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280108");
+	     if(a == "人事处（校人才交流中心）")
+	     	alert(a+'\n'+'\n'+"电话"+"85280042");
+	     if(a == "人才工作办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85280042");
+	     if(a == "教务处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280047");
+	     if(a == "研究生院、研究生工作部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280065");
+	     if(a == "招生就业处（招生办公室、就业指导中心）")
+	     	alert(a+'\n'+'\n'+"电话"+"85288053");
+	     if(a == "科学技术处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280071");
+	     if(a == "人文社会科学处")
+	     	alert(a+'\n'+'\n'+"电话"+"85287432");
+	     if(a == "发展规划处（高教研究所）")
+	     	alert(a+'\n'+'\n'+"电话"+"38289231");
+	     if(a == "财务处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280088");
+	     if(a == "资产管理处")
+	     	alert(a+'\n'+'\n'+"电话"+"85283613");
+	     if(a == "后勤处（基建办）")
+	     	alert(a+'\n'+'\n'+"电话"+"85286240");
+	     if(a == "审计处")
+	     	alert(a+'\n'+'\n'+"电话"+"85286069");
+	     if(a == "国际交流处、港澳台事务办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85283114");
+	     if(a == "离退休工作处")
+	     	alert(a+'\n'+'\n'+"电话"+"85280093");
+	     if(a == "农学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280203");
+	     if(a == "林学与风景园林学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280256");
+	     if(a == "园艺学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280228");
+	     if(a == "兽医学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85284899");
+	     if(a == "动物科学学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85281547");
+	     if(a == "资源环境学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85281887");
+	     if(a == "海洋学院")
+	     	alert(a+'\n'+'\n'+"电话"+"87571321");
+	     if(a == "生命科学学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85282180");
+	     if(a == "工程学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280783");
+	     if(a == "食品学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280266");
+	     if(a == "水利与土木工程学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85283650");
+	     if(a == "材料与能源学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280319");
+	     if(a == "数学与信息学院、软件学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85285393");
+	     if(a == "电子工程学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85283400");
+	     if(a == "经济管理学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280216");
+	     if(a == "公共管理学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85283291");
+	     if(a == "人文与法学学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280251");
+	     if(a == "外国语学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85285603");
+	     if(a == "艺术学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85286509");
+	     if(a == "马克思主义学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85286459");
+	     if(a == "体育教学研究部")
+	     	alert(a+'\n'+'\n'+"电话"+"85280338");
+	     if(a == "继续教育学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85280328");
+	     if(a == "国际教育学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85286285");
+	     if(a == "创新创业学院")
+	     	alert(a+'\n'+'\n'+"电话"+"85287520");
+	     if(a == "珠江学院")
+	     	alert(a+'\n'+'\n'+"电话"+"87983268");
+	     if(a == "新农村发展研究院")
+	     	alert(a+'\n'+'\n'+"电话"+"85281827");
+	     if(a == "重点实验室建设办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85285029");
+	     if(a == "试验中心、农事训练中心")
+	     	alert(a+'\n'+'\n'+"电话"+"85280184");
+	     if(a == "测试中心")
+	     	alert(a+'\n'+'\n'+"电话"+"85288355");
+	     if(a == "现代教育技术中心")
+	     	alert(a+'\n'+'\n'+"电话"+"85283809");
+	     if(a == "公共基础课实验教学中心")
+	     	alert(a+'\n'+'\n'+"电话"+"38297095");
+	     if(a == "工程基础教学与训练中心")
+	     	alert(a+'\n'+'\n'+"电话"+"85286120");
+	     if(a == "图书馆")
+	     	alert(a+'\n'+'\n'+"电话"+"85280144");
+	     if(a == "档案馆")
+	     	alert(a+'\n'+'\n'+"电话"+"85288115");
+	     if(a == "华南农业博物馆筹建办公室")
+	     	alert(a+'\n'+'\n'+"电话"+"85281162");
+	     if(a == "学报编辑部")
+	     	alert(a+'\n'+'\n'+"电话"+"85281673");
+	     if(a == "校工会")
+	     	alert(a+'\n'+'\n'+"电话"+"85280097");
+	     if(a == "校团委")
+	     	alert(a+'\n'+'\n'+"电话"+"85283396");
+
+	     if(a == "校友会、教育发展基金会")
+	     	alert(a+'\n'+'\n'+"电话"+"85283470");
+		if(a == "")
+			     	alert(a+'\n'+'\n'+"电话"+"85283396");
+		if(a == "广东华农大资产经营有限公司")
+			     	alert(a+'\n'+'\n'+"电话"+"85280356");
+		if(a == "校医院")
+			     	alert(a+'\n'+'\n'+"电话"+"85280348");
+		if(a == "附属小学")
+			     	alert(a+'\n'+'\n'+"电话"+"85281396");
+		if(a == "幼儿园")
+			     	alert(a+'\n'+'\n'+"电话"+"85280342");
+		if(a == "亚热带农业生物资源保护与利用国家重点实验室")
+			     	alert(a+'\n'+'\n'+"电话"+"85283027");
+		if(a == "国家植物航天育种工程中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85285772");
+		if(a == "国家生猪种业工程技术研究中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85281060");
+		if(a == "人兽共患病防控制剂国家地方联合工程实验室(广东）")
+			     	alert(a+'\n'+'\n'+"电话"+"85280240");
+		if(a == "畜禽育种国家地方联合工程研究中心（广东）")
+			     	alert(a+'\n'+'\n'+"电话"+"85281655");
+		if(a == "国家兽医微生物耐药性风险评估实验室")
+			     	alert(a+'\n'+'\n'+"电话"+"85283934");
+		if(a == "畜禽产品精准加工与安全控制技术国家地方联合工程研究中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85283448");
+		if(a == "国家精准农业航空施药技术国际联合研究中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85280783");
+		if(a == "农业部畜禽产品质量监督检验测试中心（广州）")
+			     	alert(a+'\n'+'\n'+"电话"+"85284896");
+			     if(a == "农业部植物新品种测试（广州）分中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85286350");
+			     if(a == "农业部转基因植物及植物用微生物环境安全监督检验测试中心（广州）")
+			     	alert(a+'\n'+'\n'+"电话"+"38297793");
+			     if(a == "广东农村政策研究中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85285165");
+			     if(a == "群体微生物研究中心")
+			     	alert(a+'\n'+'\n'+"电话"+"85288229");
+	  	}
+	  });
+	});
+
+
+</script>
+	
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">华农办公室电话查询</a>
+	</div>
+	<form class="navbar-form navbar-right" role="search" >
+			<div class="form-group" class="ui-widget">
+				<input type="text" class="form-contrtol" placeholder="Search" name="search" id="tags">
+			</div>
+		<button type="button" class="btn btn-default" id="button1"  >查询</button>
+	</form>
+	</div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+    data-target="#demo">
+    华南农业大学党务
+</button>    
+<div id="demo" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel">党委办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel2">党委统战部</a></li>
+	<li><a data-toggle="modal" href="#mymodel3">党委宣传部
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel4">人民武装部
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel5">党委学生工作部</a></li>
+	<li><a data-toggle="modal" href="#mymodel6">党委保卫处
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">党委办公室</h4>
+			</div>
+			<div class="modal-body">电话：85280026</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="mymodel2" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">党委统战部</h4>
+			</div>
+			<div class="modal-body">电话：85280026</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="mymodel3" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">党委宣传部</h4>
+			</div>
+			<div class="modal-body">电话：85280028</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="mymodel4" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人民武装部</h4>
+			</div>
+			<div class="modal-body">电话：85280108</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="mymodel5" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">党委学生工作部</h4>
+			</div>
+			<div class="modal-body">电话：85280082</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="mymodel6" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">党委保卫处</h4>
+			</div>
+			<div class="modal-body">电话：85280108</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+    data-target="#demo1">
+    华南农业大学党校
+</button>    
+<div id="demo1" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel7">组织部（党校办公室）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel8">机关党校</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel7" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">组织部（党校办公室）</h4>
+			</div>
+			<div class="modal-body">电话：85283566</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" id="mymodel8" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">机关党校</h4>
+			</div>
+			<div class="modal-body">电话：85283566</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+    data-target="#demo2">
+    华南农业大学各办公室
+</button>    
+<div id="demo2" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel9">校长办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel10">纪委监察处
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel11">人事处（校人才交流中心）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel12">人才工作办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel13">教务处
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel14">招生就业处（招生办公室）
+</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel15">就业指导中心</a></li>
+	<li><a data-toggle="modal" href="#mymodel16">科学技术处
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel17">人文社会科学处
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel18">发展规划处（高教研究所）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel19">财务处
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel20">资产管理处
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel21">后勤处（基建办）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel22">审计处
+
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel23">国际交流处、港澳台事务办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel24">离退休工作处
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel9" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">校长办公室</h4>
+			</div>
+			<div class="modal-body">电话：85280014</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel10" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">纪委监察处</h4>
+			</div>
+			<div class="modal-body">电话：85280034</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel11" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人事处（校人才交流中心）</h4>
+			</div>
+			<div class="modal-body">电话：85280042</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel12" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人才工作办公室</h4>
+			</div>
+			<div class="modal-body">电话：85280042</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel13" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">教务处</h4>
+			</div>
+			<div class="modal-body">电话：85280047</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel14" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">招生就业处（招生办公室)</h4>
+			</div>
+			<div class="modal-body">电话：85288053</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel15" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">就业指导中心</h4>
+			</div>
+			<div class="modal-body">电话：85288053</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel16" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">科学技术处</h4>
+			</div>
+			<div class="modal-body">电话：85280071</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel17" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人文社会科学处</h4>
+			</div>
+			<div class="modal-body">电话：85287432</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel18" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">发展规划处（高教研究所）</h4>
+			</div>
+			<div class="modal-body">电话：38289231</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel19" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">财务处</h4>
+			</div>
+			<div class="modal-body">电话：85280088</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel20" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">资产管理处</h4>
+			</div>
+			<div class="modal-body">电话：85283613</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel21" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">后勤处（基建办）</h4>
+			</div>
+			<div class="modal-body">电话：85286240</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel22" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">审计处</h4>
+			</div>
+			<div class="modal-body">电话：85286069</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel23" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国际交流处、港澳台事务办公室</h4>
+			</div>
+			<div class="modal-body">电话：85283114</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel24" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">离退休工作处</h4>
+			</div>
+			<div class="modal-body">电话：85280093</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+    data-target="#demo3">
+    华南农业大学各学院
+</button>    
+<div id="demo3" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel25">农学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel26">林学与风景园林学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel27">园艺学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel28">兽医学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel29">动物科学学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel30">资源环境学院
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel31">海洋学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel32">生命科学学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel33">工程学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel34">食品学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel35">水利与土木工程学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel36">材料与能源学院
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel37">数学与信息学院、软件学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel38">电子工程学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel39">经济管理学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel40">公共管理学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel41">人文与法学学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel42">外国语学院
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel43">艺术学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel44">马克思主义学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel45">体育教学研究部
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel46">继续教育学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel47">国际教育学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel48">创新创业学院
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel49">珠江学院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel50">研究生院、研究生工作部
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel25" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">农学院</h4>
+			</div>
+			<div class="modal-body">电话：85280203</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel26" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">林学与风景园林学院</h4>
+			</div>
+			<div class="modal-body">电话：85280256</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel27" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">园艺学院</h4>
+			</div>
+			<div class="modal-body">电话：85280228</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel28" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">兽医学院</h4>
+			</div>
+			<div class="modal-body">电话：85284899
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel29" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">动物科学学院</h4>
+			</div>
+			<div class="modal-body">电话：85281547
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel30" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">资源环境学院</h4>
+			</div>
+			<div class="modal-body">电话：85281887
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel31" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">海洋学院</h4>
+			</div>
+			<div class="modal-body">电话：87571321
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel32" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">生命科学学院</h4>
+			</div>
+			<div class="modal-body">电话：85282180
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel33" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">工程学院</h4>
+			</div>
+			<div class="modal-body">电话：85280783
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel34" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">食品学院</h4>
+			</div>
+			<div class="modal-body">电话：85280266
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel35" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">水利与土木工程学院</h4>
+			</div>
+			<div class="modal-body">电话：85283650
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel36" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">材料与能源学院</h4>
+			</div>
+			<div class="modal-body">电话：85280319
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel37" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">数学与信息学院、软件学院</h4>
+			</div>
+			<div class="modal-body">电话：85285393
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel38" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">电子工程学院</h4>
+			</div>
+			<div class="modal-body">电话：85283400
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel39" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">经济管理学院</h4>
+			</div>
+			<div class="modal-body">电话：85280216
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel40" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">公共管理学院</h4>
+			</div>
+			<div class="modal-body">电话：85283291
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel41" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人文与法学学院</h4>
+			</div>
+			<div class="modal-body">电话：85280251
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel42" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">外国语学院</h4>
+			</div>
+			<div class="modal-body">电话：85285603
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel43" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">艺术学院</h4>
+			</div>
+			<div class="modal-body">电话：85286509
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel44" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">马克思主义学院</h4>
+			</div>
+			<div class="modal-body">电话：85286459
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel45" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">体育教学研究部</h4>
+			</div>
+			<div class="modal-body">电话：85280338
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel46" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">继续教育学院</h4>
+			</div>
+			<div class="modal-body">电话：85280328
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel47" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国际教育学院</h4>
+			</div>
+			<div class="modal-body">电话：85286285
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel48" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">创新创业学院</h4>
+			</div>
+			<div class="modal-body">电话：85287520
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel49" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">珠江学院</h4>
+			</div>
+			<div class="modal-body">电话：87983268
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel50" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">研究生院、研究生工作部</h4>
+			</div>
+			<div class="modal-body">电话：85280065
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+    data-target="#demo4">
+    华南农业大学各研究院，实验室，中心
+</button>    
+<div id="demo4" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel51">新农村发展研究院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel52">重点实验室建设办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel53">试验中心、农事训练中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel54">测试中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel55">现代教育技术中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel56">公共基础课实验教学中心
+</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel57">工程基础教学与训练中心
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel51" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">新农村发展研究院</h4>
+			</div>
+			<div class="modal-body">电话：85281827
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel52" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">重点实验室建设办公室</h4>
+			</div>
+			<div class="modal-body">电话：85285029
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel53" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">试验中心、农事训练中心</h4>
+			</div>
+			<div class="modal-body">电话：85280184
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel54" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">测试中心</h4>
+			</div>
+			<div class="modal-body">电话：85288355
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel55" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">现代教育技术中心</h4>
+			</div>
+			<div class="modal-body">电话：85283809
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel56" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">公共基础课实验教学中心</h4>
+			</div>
+			<div class="modal-body">电话：38297095
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel57" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">工程基础教学与训练中心</h4>
+			</div>
+			<div class="modal-body">电话：85286120
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+ data-target="#demo5">
+    华南农业大学各组织办公室
+</button>    
+<div id="demo5" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel58">图书馆
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel59">档案馆
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel60">华南农业博物馆筹建办公室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel61">学报编辑部
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel62">校工会
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel63">校团委
+</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel64">校友会、教育发展基金会
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel65">广东华农大资产经营有限公司
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel66">校医院
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel67">附属小学
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel68">幼儿园
+</a></li>
+	<li><a href="#">
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel58" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">图书馆</h4>
+			</div>
+			<div class="modal-body">电话：85280144
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel59" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">档案馆</h4>
+			</div>
+			<div class="modal-body">电话：85288115
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel60" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">华南农业博物馆筹建办公室</h4>
+			</div>
+			<div class="modal-body">电话：85281162
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel61" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">学报编辑部</h4>
+			</div>
+			<div class="modal-body">电话：85281673
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel62" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">校工会</h4>
+			</div>
+			<div class="modal-body">电话：85280097
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel63" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">校团委</h4>
+			</div>
+			<div class="modal-body">电话：85283396
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel64" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">校友会、教育发展基金会</h4>
+			</div>
+			<div class="modal-body">电话：85283470
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel65" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">广东华农大资产经营有限公司</h4>
+			</div>
+			<div class="modal-body">电话：85280356
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel66" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">校医院</h4>
+			</div>
+			<div class="modal-body">电话：85280348
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel67" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">附属小学</h4>
+			</div>
+			<div class="modal-body">电话：85281396
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel68" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">幼儿园</h4>
+			</div>
+			<div class="modal-body">电话：85280342
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+<button type="button" class="btn btn-info btn-block" data-toggle="collapse" 
+ data-target="#demo6">
+    华南农业大学各国家，农业部研究中心
+</button>    
+<div id="demo6" class="collapse">
+    <ul class="nav nav-pills nav-justified">
+	<li><a data-toggle="modal" href="#mymodel69">亚热带农业生物资源保护与利用国家重点实验室
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel70">国家植物航天育种工程中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel71">国家生猪种业工程技术研究中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel72">人兽共患病防控制剂国家地方联合工程实验室(广东）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel73">畜禽育种国家地方联合工程研究中心（广东）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel74">国家兽医微生物耐药性风险评估实验室
+</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel75">畜禽产品精准加工与安全控制技术国家地方联合工程研究中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel76">国家精准农业航空施药技术国际联合研究中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel77">农业部畜禽产品质量监督检验测试中心（广州）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel78">农业部植物新品种测试（广州）分中心
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel79">农业部转基因植物及植物用微生物环境安全监督检验测试中心（广州）
+</a></li>
+	<li><a data-toggle="modal" href="#mymodel80">广东农村政策研究中心
+</a></li>
+	</ul><br><br><br>
+
+	<ul class="nav nav-pills nav-justified">
+	<li ><a data-toggle="modal" href="#mymodel81">群体微生物研究中心
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	<li><a href="#">
+</a></li>
+	</ul><br><br><br>
+</div><br>
+
+<div class="modal fade" id="mymodel69" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">亚热带农业生物资源保护与利用国家重点实验室</h4>
+			</div>
+			<div class="modal-body">电话：85283027
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel70" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国家植物航天育种工程中心</h4>
+			</div>
+			<div class="modal-body">电话：85285772
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel71" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国家生猪种业工程技术研究中心</h4>
+			</div>
+			<div class="modal-body">电话：85281060
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel72" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">人兽共患病防控制剂国家地方联合工程实验室(广东）</h4>
+			</div>
+			<div class="modal-body">电话：85280240
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel73" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">畜禽育种国家地方联合工程研究中心（广东）</h4>
+			</div>
+			<div class="modal-body">电话：85281655
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel74" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国家兽医微生物耐药性风险评估实验室</h4>
+			</div>
+			<div class="modal-body">电话：85283934
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel75" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">畜禽产品精准加工与安全控制技术国家地方联合工程研究中心</h4>
+			</div>
+			<div class="modal-body">电话：85283448
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel76" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">国家精准农业航空施药技术国际联合研究中心</h4>
+			</div>
+			<div class="modal-body">电话：85280783
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel77" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">农业部畜禽产品质量监督检验测试中心（广州）</h4>
+			</div>
+			<div class="modal-body">电话：85284896
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel78" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">农业部植物新品种测试（广州）分中心</h4>
+			</div>
+			<div class="modal-body">电话：85286350
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel79" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">农业部转基因植物及植物用微生物环境安全监督检验测试中心（广州）</h4>
+			</div>
+			<div class="modal-body">电话：38297793
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel80" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">广东农村政策研究中心</h4>
+			</div>
+			<div class="modal-body">电话：85285165
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="mymodel81" tabindex="-1" role="dialog" aria-labelledby="mymodellabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button"class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">群体微生物研究中心</h4>
+			</div>
+			<div class="modal-body">电话：85288229
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>
